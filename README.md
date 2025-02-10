@@ -1,34 +1,39 @@
-# My Portfolio
-#### Project made for the "Responsive Web Design" module in freeCodeCamp
----
+# <a href="https://vinodjangid07.github.io/" target="_blank">My Portfolio</a>
+<p align="justify">This website displays my Projects, Web presence, Story, Work experience, and contact information.</p>
 
-A portfolio showing most of the projects I made to get the Full-Stack Developer certificate at freeCodeCamp.
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vinodjangid07.github.io/)
+[![Author](https://img.shields.io/badge/Author-Vinod%20Jangid-purple.svg)](https://www.instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY%3D)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/vinodjangid07/vinodjangid07.github.io)
+<a href="https://github.com/vinodjangid07/vinodjangid07.github.io/blob/master/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
-#### Screenshot
-
-![Screenshot](Screenshot.png)
-
-#### Try it out!
-
-If you want to see it live, open [this pen](https://codepen.io/yagoestevez/full/oapQEJ) on Codepen.
-
-#### User Stories
-
-These are the requirements for this project. They are all fullfilled.
-
-1. My portfolio should have a welcome section with an id of ```welcome-section```.
-2. The welcome section should have an ```h1``` element that contains text.
-3. My portfolio should have a projects section with an id of ```projects```.
-4. The projects section should contain at least one element with a class of ```project-tile``` to hold a project.
-5. The projects section should contain at least one link to a project.
-6. My portfolio should have a navbar with an id of ```navbar```.
-7. The navbar should contain at least one link that I can click on to navigate to different sections of the page.
-8. My portfolio should have a link with an id of ```profile-link```, which opens my GitHub or FCC profile in a new tab.
-9. My portfolio should have at least one media query.
-10. The height of the welcome section should be equal to the height of the viewport.
-11. The navbar should always be at the top of the viewport.
+<img width="100%" alt="Portfolio Screenshot" src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/fd0d70b2-1505-4adf-8b0c-427df58607e3">
 
 
----
+:star: Star me on GitHub — it helps!
 
-[Yago Estévez](https://twitter.com/yagoestevez)
+# Sections 📚
+
+✔️ Mini intro\
+✔️ About me \
+✔️ Skills\
+✔️ Projects\
+✔️ Contact me
+
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- ⚠️ Remove my Bitmoji <img src="https://github.com/vinodjangid07/vinodjangid07.github.io/assets/86096184/05e5b2d6-8b38-4cf9-a5a3-eb63e81aab1d" width="20px"> from the navbar/footer and use yours instead.⚠️
+- Add or remove images from `https://www.vinodjangid.me/src/` directory as per your requirement.
+- ⚠️<b>NOTE:</b> Make sure to remove `analyticsId` & `google search console Id` from `<head>` tag, and set yours, if you want to use your own Google Analytics & search console account.⚠️
+
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## Tools Used 🛠️
+* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
+* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
+
+
+Please contact me at infovinodjangid@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
