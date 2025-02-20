@@ -927,7 +927,7 @@ noscript{
     transition-duration: .5s;
 }
 .dp img{
-    width: 300px;
+    width: 400px;
 }
 .dp::before{
     content: "";
@@ -936,9 +936,6 @@ noscript{
     width: 300px;
     position: absolute;
     z-index: -2;
-    box-shadow: 2px 2px 0px inset #8000ff,
-                -2px -2px 0px inset transparent;
-                transition-duration: .5s;
 
 }
 .dp::after{
@@ -948,9 +945,6 @@ noscript{
     width: 300px;
     position: absolute;
     z-index: -2;
-    box-shadow: 2px 2px 0px inset transparent,
-                -2px -2px 0px inset #8000ff;
-                transition-duration: .5s;
 
 }
 /* hover effect on dp */
