@@ -63,8 +63,14 @@
             </a>
           </li>
 
-          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
-            <a href="#skills" aria-label="skills menu button">
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#skills" aria-label="projects menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+
+          <li class="Entreprise" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#entreprise" aria-label="skills menu button">
               &#60;/Entreprise&#62;
             </a>
           </li>
@@ -277,7 +283,7 @@
               d'assurer le bon fonctionnement du système d'information
             </p>
              <!-- Resume button -->
-      <button class="resume-btn" id="resume-btn" onclick="openURL()">
+      <button class="resume-btn" id="resume-btn" onclick="openURL('/src/pdf/cv.pdf')">
         <div class="sign">
           <svg viewBox="0 0 640 512">
             <path
@@ -431,8 +437,12 @@
           </ul>
         </div>
       </div>
-    </section>
-    <section class="about-section-container" id="skills" data-aos="fade-up">
+    </section><br><br><br>
+    <div class="e5" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <h3 style="color: white; font-size: 5rem;">Tableau de Synthèse E5</h3><br><br>
+      <button onclick="openURL('/src/xlsx/tableau_synthese.xlsx')" style="background-color: transparent; border: 1px solid white; border-radius: 3px; height: 50px; width: 400px; color: white; font-weight: bold; font-size: 22px;">Télécharger</button>
+    </div>
+    <section class="about-section-container" id="entreprise" data-aos="fade-up">
       <div class="about-section">
         <div class="section-heading">
           <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
@@ -466,7 +476,7 @@
               - <strong>Chef de projet SI :</strong> Pilotage des systèmes d’information.<br/>
               - <strong>Gestionnaires d’applications :</strong> Administration et assistance des solutions logicielles.<br/>
             </p>
-            <button class="resume-btn" id="resume-btn" onclick="openPOWOWOINT()">
+            <button class="resume-btn" id="resume-btn" onclick="openURL('/src/pptx/presentation.pptx')">
               <div class="sign">
                 <svg viewBox="0 0 640 512">
                   <path
@@ -549,14 +559,8 @@
   </script>
 
   <script>
-    function openURL() {
-      var url = "src/pdf/cv.pdf";
-
-      window.open(url, "_blank");
-    }
-
-    function openPOWOWOINT() {
-      var url = "src/pptx/presentation.pptx";
+    function openURL(lien) {
+      var url = lien;
 
       window.open(url, "_blank");
     }
