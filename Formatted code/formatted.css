@@ -905,6 +905,7 @@ noscript{
     width: 100%;
     display: flex;
     margin-top: 30px;
+    flex-direction: column;
     
 }
 .about-info{
