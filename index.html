@@ -25,7 +25,7 @@
     href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
 </head>
 
-<body class="body" style="display: none;">
+<body class="body">
   <audio loop="" id="audioPlayer" style="display: none">
     <source src="src/mp3/preloader.mp3" type="audio/mp3" />
   </audio>
@@ -597,7 +597,7 @@
     function openURL(lien) {
       var url = lien;
 
-      window.open(url, "_blank");
+      verifierMotDePasse(url)
     }
   </script>
 
@@ -644,20 +644,18 @@
     return hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
 }
 
-async function verifierMotDePasse() {
+async function verifierMotDePasse(lien) {
     const motDePasseHash = "e979028e8dea74449018490435b034eda979ec122e421e91ff3bb8a28a7258ed"; // Hash de "secret123"
     let entree = prompt("Entrez le mot de passe :");
     let entreeHash = await hashPassword(entree);
-
+    
     if (entreeHash === motDePasseHash) {
-        document.body.style.display = "block";
+        window.open(lien, "_blank");
     } else {
         alert("Mot de passe incorrect. Accès refusé.");
         window.location.reload();
     }
 }
-
-verifierMotDePasse();
 
   </script>
 </body>
