@@ -332,8 +332,8 @@
           </div>
     
           <div class="e5" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
-            <h3 style="color: white; font-size: 5rem; text-align: center;">Tableau des Documents</h3><br><br>
-            <button onclick="openURL('/src/docx/docs.rar')" style="background-color: transparent; border: 1px solid white; border-radius: 3px; height: 50px; width: 400px; color: white; font-weight: bold; font-size: 22px;">Télécharger</button>
+            <h3 class="cta-h3">Tableau des Documents</h3><br><br>
+            <button onclick="openURL('/src/docx/docs.rar')" class="cta-btn">Télécharger</button>
           </div>
 
         </div>
@@ -430,8 +430,8 @@
       </div>
     </section><br><br><br>
     <div class="e5" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
-      <h3 style="color: white; font-size: 5rem;">Tableau de Synthèse E5</h3><br><br>
-      <button onclick="openURL('/src/xlsx/tableau_synthese.xlsx')" style="background-color: transparent; border: 1px solid white; border-radius: 3px; height: 50px; width: 400px; color: white; font-weight: bold; font-size: 22px;">Télécharger</button>
+      <h3 class="cta-h3">Tableau de Synthèse E5</h3><br><br>
+      <button onclick="openURL('/src/xlsx/tableau_synthese.xlsx')" class="cta-btn">Télécharger</button>
     </div>
     <section class="about-section-container" id="entreprise" data-aos="fade-up">
       <div class="about-section">
@@ -594,7 +594,7 @@
   </script>
 
   <script>
-    function openURL(lien) {
+    function openURL(lien, bool) {
       var url = lien;
 
       verifierMotDePasse(url)

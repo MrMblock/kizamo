@@ -1040,6 +1040,47 @@ noscript {
     justify-content: center
 }
 
+.cta-h3 {
+    font-size: 5rem;
+    color: var(--color-ddd-color);
+}
+
+.cta-btn {
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 3rem;
+    width: 400px;
+    color: var(--color-ddd-color);
+    background: none;
+    border: 2px solid var(--color-ddd-color);
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+  
+  .cta-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: white;
+    transition: width 0.4s ease-in-out;
+    z-index: -1;
+    transform: translateX(-50%);
+  }
+  
+  .cta-btn:hover::before {
+    width: 100%;
+  }
+  
+  .cta-btn:hover {
+    color: black;
+  }
+  
+
 .language-speak,
 .tech-stack-wrapper {
     width: 100%;
